@@ -22,7 +22,7 @@
             <div class="dropdown-content">
               <a href="">Link 1</a>
               <a href="">Link 2</a>
-              <a href="">Link 3</a>
+              <a href="display grid/index.html" target="_blank">Receitas</a>
             </div>
           </li>
           <li><a href="" >SOBRE</a></li>
@@ -32,26 +32,59 @@
     </div>
   </header>
 
-
-  <div>
-    <section class="section">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptatibus perferendis molestiae voluptate,
-        quae reiciendis nulla provident, temporibus modi sunt aperiam. Quaerat, tempora veritatis. Veniam, labore. Rerum
-        aperiam sunt asperiores.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo odio iste, pariatur eligendi natus nesciunt
-        nihil quidem ipsam saepe placeat quae quasi commodi earum nobis dolores culpa perspiciatis. Cum, nemo!
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum commodi nemo cum exercitationem, quod et ea illum
-        ab
-        tenetur a possimus sunt natus, facilis ut nam? Architecto odio numquam tenetur.
-      <nav>
-        <p>Indicamos um conteúdo sobre a importância das proteínas na alimentação no link a seguir:<br><a
-            href="https://www.unimed.coop.br/viver-bem/alimentacao/proteinas-por-que-sao-tao-importantes-?utm_source=redirect-site-novo&utm_medium=chamada-home2#:~:text=As%20prote%C3%ADnas%20s%C3%A3o%20de%20fundamental,que%20o%20corpo%20n%C3%A3o%20produz."
-            target="_blank"><button id="button">Leia aqui</button></a></p>
-      </nav>
-      </p>
-    </section>
-
+  <div class="section-of-page"> 
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Ratione officia cumque nemo unde, eveniet ipsam est reprehenderit placeat eos illum optio sunt debitis
+      quisquam voluptatem pariatur rerum accusantium! Tenetur, vitae?
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      Ducimus incidunt obcaecati deleniti nulla dolore autem quae, cum blanditiis.
+      Eos, itaque quis quibusdam eveniet repellendus debitis fuga aspernatur labore voluptatem suscipit!
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+      Soluta expedita magni recusandae non saepe quam. Aperiam rerum, ipsam possimus,
+      distinctio accusantium molestiae mollitia reiciendis corrupti placeat inventore quasi autem sint.
+    </p>
   </div>
+    <div id="container">
+      <div class="card-container">
+        <div class="card">
+          <div class="circle">
+              <h2>PROTEÍNAS</h2>
+          </div>
+          <div class="content">
+              <p>
+                Indicamos um ótimo conteúdo:
+              </p>
+              <a href="https://www.unimed.coop.br/viver-bem/alimentacao/proteinas-por-que-sao-tao-importantes-?utm_source=redirect-site-novo&utm_medium=chamada-home2#:~:text=As%20prote%C3%ADnas%20s%C3%A3o%20de%20fundamental,que%20o%20corpo%20n%C3%A3o%20produz."
+              target="_blank">Ver mais</a>
+          </div>
+      </div>
+      <div class="card">
+        <div class="circle">
+            <h2>CARBOIDRATOS</h2>
+        </div>
+        <div class="content">
+            <p>
+              Algumas opções saudáveis na sua dieta:
+            </p>
+            <a href="https://veja.abril.com.br/saude/conheca-15-alimentos-saudaveis-e-ricos-em-carboidratos" target="_blank">Ver mais</a>
+        </div>
+    </div>
+    <div class="card">
+      <div class="circle">
+          <h2>LIPÍDIOS</h2>
+      </div>
+      <div class="content">
+          <p>
+            Importante saber balancear:
+          </p>
+          <a href="https://www.todamateria.com.br/alimentos-ricos-em-lipidios/" target="_blank">Ver mais</a>
+      </div>
+  </div>
+      </div>
+    </div>
+
+  
   <div class="slider-container"> 
 
     <h3>Alimentos que aumentam a imunidade</h3>
@@ -94,7 +127,7 @@
     </div>
     
 </div>
-<section class="section">
+<div class="section-of-page">
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptatibus perferendis molestiae voluptate,
     quae reiciendis nulla provident, temporibus modi sunt aperiam. Quaerat, tempora veritatis. Veniam, labore. Rerum
     aperiam sunt asperiores.
@@ -103,10 +136,10 @@
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum commodi nemo cum exercitationem, quod et ea illum
     ab tenetur a possimus sunt natus, facilis ut nam? Architecto odio numquam tenetur.
     </p>
-  </section>
+  </div>
   
   <div class="iframe">
-    <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    <iframe width="500" height="400" src="https://www.youtube.com/embed/tgbNymZ7vqY">
     </iframe>
   </div>
 
@@ -122,18 +155,19 @@
       <label for="email">Email:</label>
       <input type="email" name="email" id="email" required><br><br>
 
-      <button type="button" onclick="exibirValores()">Enviar</button>
+      <button type="button" onclick="enviarFormulario()">Enviar</button>
     </form>
-    Lista de emails cadastrados:
-
+    <p>Lista de emails cadastrados:</p>
+    
     <div id="valoresEnviados">
 
     </div>
+  </div>
 
     <div id="map"> Localização:
     </div>
 
-  </div>
+  
   <footer>Criado por Natália Fradique</footer>
   <script src="script.js"></script>
 </body>

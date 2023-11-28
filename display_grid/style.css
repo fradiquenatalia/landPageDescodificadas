@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Louis';
+    src: url('../fonts/Louis\ George\ Cafe.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.album {
+    padding: 10px;
+    display: grid;
+    height: 670px;
+    grid-template-columns: 1.5fr 1.7fr 1fr 1.5fr;
+    grid-template-rows: 4fr 3fr 4fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: rgb(245, 150, 26);
+
+}
+
+.r1, .r2, .r3, .r4, .r6, .r7, .r9, .r10, .r11, .r12 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%; 
+}
+
+.r5 h1 {
+    font-family: 'Louis', Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 197, 126);
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.r8 h2 {
+    background-color: rgb(255, 197, 126);
+    font-family: 'Louis', Arial, Helvetica, sans-serif;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.r8 h2 a {
+    color: black;
+}
+
+.r1 {
+    background-image: url(images/roasted-rib-with-sliced-fried-vegetables-sauce.jpg);
+    
+}
+
+.r2 {
+    background-image: url(images/frittata-with-mushrooms-zucchini-cheese.jpg);
+}
+
+.r3 {
+    background-image: url(images/roasted-salmon.jpg);
+}
+
+.r4 {
+    background-image: url(images/close-up-grilled-chicken-breast-fresh-cut-salad-bunch-tomatoes-wooden-board.jpg);
+}
+
+.r5 {
+    background-color: rgb(252, 204, 145);
+    }
+
+.r6 {
+    background-image: url(images/fresh-strawberry-banana-smoothie-jar.jpg);
+}
+
+.r7 {
+    background-image: url(images/baked-tart-dough-with-spinach.jpg);
+}
+
+.r8 {
+    background-color: rgb(235, 185, 124);
+}
+
+.r9 {
+    background-image: url(images/vertical-shot-slices-delicious-banana-bread-with-chocolate-chunks-walnut-plate.jpg);
+}
+
+.r10 {
+    background-image: url(images/vegetables-salad-table.jpg);
+}
+
+.r11 {
+    background-image: url(images/chaufa-de-quinoa-com-vegetais.jpg);
+}
+
+.r12 {
+    background-image: url(images/panqueca-de-aveia.jpg);
+}
